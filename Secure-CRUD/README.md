@@ -67,10 +67,3 @@ Once the application is live at `http://localhost`, use the following endpoints:
 | **Update**| PUT | `/tasks/:id` | Update a task by ID |
 | **Delete**| DELETE | `/tasks/:id` | Remove a task by ID |
 
-Example `curl` command to add a task:
-```bash
-curl -X POST http://localhost/tasks -H "Content-Type: application/json" -d '{"title": "New Task"}'
-```
-
-## 📜 License
-ISC
